@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZJ_CGDrawViewLib'
+  s.name             = 'T_CGDrawViewLib'
   s.version          = '0.1.0'
   s.summary          = '画笔工具'
 
