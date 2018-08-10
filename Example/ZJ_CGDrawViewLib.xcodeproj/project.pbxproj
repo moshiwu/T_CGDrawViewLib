@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17616CF74EF74FBA77E2D7FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		17616CF74EF74FBA77E2D7FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		18255547C0A32A7808E1171C /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJ_CGDrawViewLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Pods-ZJ_CGDrawViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		25A4B65B6B8300BEA8833B2C /* Pods_ZJ_CGDrawViewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJ_CGDrawViewLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EEBA4CC8D3B8FBA32BDDA0 /* Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Tests/Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,12 +61,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62B7AADD433618F0F6AC7E82 /* ZJ_CGDrawViewLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZJ_CGDrawViewLib.podspec; path = ../ZJ_CGDrawViewLib.podspec; sourceTree = "<group>"; };
+		62B7AADD433618F0F6AC7E82 /* ZJ_CGDrawViewLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJ_CGDrawViewLib.podspec; path = ../ZJ_CGDrawViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1D19EDF81767A1C410343F4 /* Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Tests/Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3AB566F211D511F00253ECF /* MLTunesOperateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTunesOperateModel.h; sourceTree = "<group>"; };
+		A3AB5670211D511F00253ECF /* MLTunesOperateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTunesOperateModel.m; sourceTree = "<group>"; };
 		A69B37E4DD6F447F11E3A78A /* Pods_ZJ_CGDrawViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJ_CGDrawViewLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEBF3668A7D8AB2E0720727D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AEBF3668A7D8AB2E0720727D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZJViewController.h */,
 				6003F5A6195388D20070C39A /* ZJViewController.m */,
+				A3AB566F211D511F00253ECF /* MLTunesOperateModel.h */,
+				A3AB5670211D511F00253ECF /* MLTunesOperateModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -207,7 +211,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8E9F9280B9BE4F0D070BBFD4 /* [CP] Embed Pods Frameworks */,
+				1AC02AE9536585DCF4CCC331 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = krystalNa;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7827DZ9F2C;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -294,7 +301,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E9F9280B9BE4F0D070BBFD4 /* [CP] Embed Pods Frameworks */ = {
+		1AC02AE9536585DCF4CCC331 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -485,6 +492,7 @@
 			baseConfigurationReference = 3F404DD67945B41F0AF6F3DE /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7827DZ9F2C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZJ_CGDrawViewLib/ZJ_CGDrawViewLib-Prefix.pch";
 				INFOPLIST_FILE = "ZJ_CGDrawViewLib/ZJ_CGDrawViewLib-Info.plist";
@@ -500,6 +508,7 @@
 			baseConfigurationReference = 18255547C0A32A7808E1171C /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7827DZ9F2C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZJ_CGDrawViewLib/ZJ_CGDrawViewLib-Prefix.pch";
 				INFOPLIST_FILE = "ZJ_CGDrawViewLib/ZJ_CGDrawViewLib-Info.plist";

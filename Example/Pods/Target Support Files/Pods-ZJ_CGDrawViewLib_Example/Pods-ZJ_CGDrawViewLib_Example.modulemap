@@ -1,0 +1,6 @@
+framework module Pods_ZJ_CGDrawViewLib_Example {
+  umbrella header "Pods-ZJ_CGDrawViewLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

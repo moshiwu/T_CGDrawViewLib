@@ -1,0 +1,16 @@
+PODS:
+  - ZJ_CGDrawViewLib (0.1.0)
+
+DEPENDENCIES:
+  - ZJ_CGDrawViewLib (from `../`)
+
+EXTERNAL SOURCES:
+  ZJ_CGDrawViewLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJ_CGDrawViewLib: 0c94a0401426d84cfda1a62065598ae6e963c228
+
+PODFILE CHECKSUM: d363e0f0d846a6948ea01a0238f22d2c2ca634e7
+
+COCOAPODS: 1.5.3
