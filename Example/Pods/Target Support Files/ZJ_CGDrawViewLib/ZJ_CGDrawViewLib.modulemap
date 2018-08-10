@@ -1,6 +1,0 @@
-framework module ZJ_CGDrawViewLib {
-  umbrella header "ZJ_CGDrawViewLib-umbrella.h"
-
-  export *
-  module * { export * }
-}

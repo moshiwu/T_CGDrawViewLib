@@ -20,7 +20,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6B6E1059BFB433720F50B575 /* Pods_ZJ_CGDrawViewLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A4B65B6B8300BEA8833B2C /* Pods_ZJ_CGDrawViewLib_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		900F3C9CB570251463E57298 /* Pods_ZJ_CGDrawViewLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69B37E4DD6F447F11E3A78A /* Pods_ZJ_CGDrawViewLib_Example.framework */; };
@@ -40,7 +39,6 @@
 		17616CF74EF74FBA77E2D7FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		18255547C0A32A7808E1171C /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJ_CGDrawViewLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Pods-ZJ_CGDrawViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		25A4B65B6B8300BEA8833B2C /* Pods_ZJ_CGDrawViewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJ_CGDrawViewLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29EEBA4CC8D3B8FBA32BDDA0 /* Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Tests/Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3F404DD67945B41F0AF6F3DE /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZJ_CGDrawViewLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJ_CGDrawViewLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +62,6 @@
 		62B7AADD433618F0F6AC7E82 /* T_CGDrawViewLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = T_CGDrawViewLib.podspec; path = ../T_CGDrawViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1D19EDF81767A1C410343F4 /* Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Tests/Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3AB566F211D511F00253ECF /* MLTunesOperateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTunesOperateModel.h; sourceTree = "<group>"; };
 		A3AB5670211D511F00253ECF /* MLTunesOperateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTunesOperateModel.m; sourceTree = "<group>"; };
 		A69B37E4DD6F447F11E3A78A /* Pods_ZJ_CGDrawViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJ_CGDrawViewLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +87,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				6B6E1059BFB433720F50B575 /* Pods_ZJ_CGDrawViewLib_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +98,6 @@
 			children = (
 				3F404DD67945B41F0AF6F3DE /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */,
 				18255547C0A32A7808E1171C /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */,
-				A1D19EDF81767A1C410343F4 /* Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig */,
-				29EEBA4CC8D3B8FBA32BDDA0 /* Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -226,7 +220,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZJ_CGDrawViewLib_Tests" */;
 			buildPhases = (
-				909DF197501CA9556BE9FB05 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -308,33 +301,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Pods-ZJ_CGDrawViewLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZJ_CGDrawViewLib/ZJ_CGDrawViewLib.framework",
+				"${BUILT_PRODUCTS_DIR}/T_CGDrawViewLib/T_CGDrawViewLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJ_CGDrawViewLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/T_CGDrawViewLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Pods-ZJ_CGDrawViewLib_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		909DF197501CA9556BE9FB05 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZJ_CGDrawViewLib_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4ADBD912341B301657C764B /* [CP] Check Pods Manifest.lock */ = {
@@ -521,7 +496,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1D19EDF81767A1C410343F4 /* Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -545,7 +519,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29EEBA4CC8D3B8FBA32BDDA0 /* Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

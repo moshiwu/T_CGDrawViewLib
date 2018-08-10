@@ -7,10 +7,8 @@
 //
 
 #import "ZJViewController.h"
-#import <ZJ_CGDrawViewLib/CGDrawView.h>
-
+#import "lame.h"
 @interface ZJViewController ()//<CGDrawViewDelegate>
-@property (nonatomic,strong) CGDrawView *drawBoard;
 @end
 
 @implementation ZJViewController

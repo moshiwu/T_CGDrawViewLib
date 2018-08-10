@@ -12,7 +12,8 @@
 
 #import "CGDrawView.h"
 #import "MLTunesOperateModel.h"
+#import "lame.h"
 
-FOUNDATION_EXPORT double ZJ_CGDrawViewLibVersionNumber;
-FOUNDATION_EXPORT const unsigned char ZJ_CGDrawViewLibVersionString[];
+FOUNDATION_EXPORT double T_CGDrawViewLibVersionNumber;
+FOUNDATION_EXPORT const unsigned char T_CGDrawViewLibVersionString[];
 

@@ -1,0 +1,6 @@
+framework module T_CGDrawViewLib {
+  umbrella header "T_CGDrawViewLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

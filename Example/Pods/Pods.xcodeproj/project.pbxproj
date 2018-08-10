@@ -7,102 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		053555217DF9EDA042EDA335F12B065E /* MLTunesOperateModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9B52FB904F9BD6417B1353898A5ED2 /* MLTunesOperateModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FD85EB7CAC8C941B62A9F001703FA8D /* MLTunesOperateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 564CCDBAF97B21BDBF722A711AB7DDC2 /* MLTunesOperateModel.m */; };
-		1B32378C45654CBDB7BE132EBCA5A87A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		2147D7F5AB11FDFBCA4F93C941047731 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2835B88AEA04C361F47F7A57B13A95 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m */; };
-		310E8DEF85702B61B88829929886FE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		38CB8507507132C71959B92086FC6D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		562B1DCFB3C07B7948FADF0A2001EB1B /* Pods-ZJ_CGDrawViewLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5195D258F06C6913187DF0A7C5D6E5EC /* Pods-ZJ_CGDrawViewLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F902236AF803F98FC28602F22B3D44B /* ZJ_CGDrawViewLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F8BA492AE62F2E91516CF6377985DF /* ZJ_CGDrawViewLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		965175E49CBF14F65E5AB046201A3739 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759846E8D5B7F68C0B6C65270BB29455 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4DE22F542825D4742F91FC4A9E272DF /* Pods-ZJ_CGDrawViewLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D06C25487E89256B0882D2BA7A21229 /* Pods-ZJ_CGDrawViewLib_Tests-dummy.m */; };
-		DBE462F71D793E8884DD61585B55874F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		F4C2442C21824EDB490F5D3A2BC6C206 /* CGDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = C513BC035646D06B7B501A1ABD15EAD0 /* CGDrawView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB065919D7A7181F2CF2A0FEC7C37213 /* ZJ_CGDrawViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D839960FE7915D422A7F475751579A2 /* ZJ_CGDrawViewLib-dummy.m */; };
+		1F5E78BC68A4119F31E5AF7747EF4CD3 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1EFD9373A30DCDF5D49AA265C90F2 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m */; };
+		22C0149E644C53C70E84B77CBD86E4D0 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 92796BA0FD7F540162A88D6B39F7FEC0 /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23DD50E3CAC84B0456C9956EC9CBE93B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		48CF49E000101A00BA40EF69134B40A6 /* T_CGDrawViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25185D53527B210695698CB779E0E08B /* T_CGDrawViewLib-dummy.m */; };
+		6C4E1D192CEAFC45EC65604D2E299468 /* T_CGDrawViewLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54AE01B161F3E47F429A43514F8114D3 /* T_CGDrawViewLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C5DE7BB802CB9770C45575006B8577 /* CGDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6F1C4AB1AC9C2949A18D3876154C06 /* CGDrawView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D736F0BAC19CF82A6387EA217F9E20 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D415ADBB6D3FA52B1645D89B0D4737 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB67A833813D8B8ED31C8F856FDC04D /* MLTunesOperateModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C45C5F68D0D0B75D90083BE99E488B68 /* MLTunesOperateModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FF86086E6FA821A086288B991792D1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		DC051B9D12504A67EC80317DE5E86678 /* MLTunesOperateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1821357E65F560DDCCA0D3567C76DF /* MLTunesOperateModel.m */; };
+		DE3331F17750350D9267BBFFDBB9AEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78FF52C650DBC5CAC3BA41FCFE125A4F /* PBXContainerItemProxy */ = {
+		DA8308DFAE8EE42292D8A3D1F94B0674 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5CC48ECA0FE53A41F41528BE8E476FA;
-			remoteInfo = "Pods-ZJ_CGDrawViewLib_Example";
-		};
-		DF920E6BD783AF4F5584AE73DB56BCF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18E51FEF2D8278A38170E42E3CCCEFE7;
-			remoteInfo = ZJ_CGDrawViewLib;
+			remoteGlobalIDString = D0639A6833D571DA89DC65F2AB740E2A;
+			remoteInfo = T_CGDrawViewLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0264251BD8EBF00BF06BCEB59CB0A2F6 /* Pods-ZJ_CGDrawViewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJ_CGDrawViewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		052928E175FE4F1526AA7D1A291F942A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		094F0421FAC35945E7ACE848B3E4BE26 /* Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1726D64C6F1EEDB59E9F20B68202B8C6 /* Pods-ZJ_CGDrawViewLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJ_CGDrawViewLib_Tests.modulemap"; sourceTree = "<group>"; };
-		19C49347ECA505A9D5394B4ED34F5386 /* ZJ_CGDrawViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJ_CGDrawViewLib-prefix.pch"; sourceTree = "<group>"; };
-		2D839960FE7915D422A7F475751579A2 /* ZJ_CGDrawViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJ_CGDrawViewLib-dummy.m"; sourceTree = "<group>"; };
-		2FF5295EDC8B3412900A7F7004DAD0E2 /* Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4610609C5A8AC857C1531020AE718907 /* Pods-ZJ_CGDrawViewLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJ_CGDrawViewLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		4EF3FF38133CF95E781316829AED67C6 /* Pods_ZJ_CGDrawViewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJ_CGDrawViewLib_Tests.framework; path = "Pods-ZJ_CGDrawViewLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5195D258F06C6913187DF0A7C5D6E5EC /* Pods-ZJ_CGDrawViewLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJ_CGDrawViewLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		564CCDBAF97B21BDBF722A711AB7DDC2 /* MLTunesOperateModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLTunesOperateModel.m; path = ZJ_CGDrawViewLib/Classes/MLTunesOperateModel.m; sourceTree = "<group>"; };
-		58B0A4B0D445C60080C86874A23809D1 /* Pods-ZJ_CGDrawViewLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJ_CGDrawViewLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		63A4FCEE2BB8F1CDC88FA59F10E2118A /* ZJ_CGDrawViewLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJ_CGDrawViewLib.modulemap; sourceTree = "<group>"; };
-		759846E8D5B7F68C0B6C65270BB29455 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJ_CGDrawViewLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		75A1DD793E1FC606CD11678139C7667D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		781036561FA6FC6F7590374CF1CA3775 /* ZJ_CGDrawViewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJ_CGDrawViewLib.framework; path = ZJ_CGDrawViewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E67664DA3495D7EE628C1A1B95FCF89 /* Pods-ZJ_CGDrawViewLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJ_CGDrawViewLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A142605AA14385BB0456B368F127552 /* T_CGDrawViewLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = T_CGDrawViewLib.modulemap; sourceTree = "<group>"; };
+		1C22FFE6011999D4145E3ECD80832123 /* Pods-ZJ_CGDrawViewLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJ_CGDrawViewLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		215665B217D990E83A424AF7F9855B44 /* Pods-ZJ_CGDrawViewLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJ_CGDrawViewLib_Example-resources.sh"; sourceTree = "<group>"; };
+		22C1EFD9373A30DCDF5D49AA265C90F2 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJ_CGDrawViewLib_Example-dummy.m"; sourceTree = "<group>"; };
+		25185D53527B210695698CB779E0E08B /* T_CGDrawViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "T_CGDrawViewLib-dummy.m"; sourceTree = "<group>"; };
+		5283E7232B614F34619E643A05679B1C /* T_CGDrawViewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = T_CGDrawViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		54AE01B161F3E47F429A43514F8114D3 /* T_CGDrawViewLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "T_CGDrawViewLib-umbrella.h"; sourceTree = "<group>"; };
+		54C18C97A2CBAB8796D6A239833DD2FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D415ADBB6D3FA52B1645D89B0D4737 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJ_CGDrawViewLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		589061DFD5C4847A64155E283417760F /* Pods-ZJ_CGDrawViewLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJ_CGDrawViewLib_Example.modulemap"; sourceTree = "<group>"; };
+		5D6F1C4AB1AC9C2949A18D3876154C06 /* CGDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGDrawView.h; path = ZJ_CGDrawViewLib/Classes/CGDrawView.h; sourceTree = "<group>"; };
+		5EF1DCE4386DD3E0FA1DE4278B60B829 /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJ_CGDrawViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		63E84D135179EA339CB43ECAF5AE1160 /* T_CGDrawViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "T_CGDrawViewLib-prefix.pch"; sourceTree = "<group>"; };
+		8682FC932E52571A6651C2AF29788B82 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = ZJ_CGDrawViewLib/Classes/libmp3lame.a; sourceTree = "<group>"; };
+		8899A3BBAC5087E086344CE8C7BCD39D /* Pods-ZJ_CGDrawViewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJ_CGDrawViewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8CAFC4163D903627ADDD99C034FA2C0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92796BA0FD7F540162A88D6B39F7FEC0 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = ZJ_CGDrawViewLib/Classes/lame.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		985B870DE8A06DD91021BF1DFC510CBA /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		98F8BA492AE62F2E91516CF6377985DF /* ZJ_CGDrawViewLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJ_CGDrawViewLib-umbrella.h"; sourceTree = "<group>"; };
-		9D06C25487E89256B0882D2BA7A21229 /* Pods-ZJ_CGDrawViewLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJ_CGDrawViewLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		A3A4D8753CDBB590D55EC73FDCFA0AD7 /* Pods-ZJ_CGDrawViewLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJ_CGDrawViewLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD2835B88AEA04C361F47F7A57B13A95 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJ_CGDrawViewLib_Example-dummy.m"; sourceTree = "<group>"; };
-		AF211D35FD420A49439185A71C784848 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF5BDE23B482903A3406A660933CA94E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFEB0CA0A21D122B7607F0481A5BE73F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B196BA956AA6483F07E8EA5EBBDD74DB /* ZJ_CGDrawViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJ_CGDrawViewLib.xcconfig; sourceTree = "<group>"; };
+		9631B524105D2947F2FFF355CA89C1B2 /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A398B81675392FAFC596B78986E8C4F5 /* Pods-ZJ_CGDrawViewLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJ_CGDrawViewLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7341593C7918B2FF9D1FEF2366AF140 /* T_CGDrawViewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = T_CGDrawViewLib.framework; path = T_CGDrawViewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C0C06CB4FB3E90D051AB5F666D6C9BF9 /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJ_CGDrawViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C513BC035646D06B7B501A1ABD15EAD0 /* CGDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGDrawView.h; path = ZJ_CGDrawViewLib/Classes/CGDrawView.h; sourceTree = "<group>"; };
-		C6834C4331253FD6DB556844CB9DB1AF /* Pods_ZJ_CGDrawViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJ_CGDrawViewLib_Example.framework; path = "Pods-ZJ_CGDrawViewLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDFAD0D30F49DE2B6FA33B03720B2F70 /* Pods-ZJ_CGDrawViewLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJ_CGDrawViewLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D313F196444C5E84891B292E903A94F7 /* Pods-ZJ_CGDrawViewLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJ_CGDrawViewLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DEC9EAE96007D57257D4C982AB8F7BB7 /* Pods-ZJ_CGDrawViewLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJ_CGDrawViewLib_Example-resources.sh"; sourceTree = "<group>"; };
-		E96683A26A8EF47953395112077DDEBA /* ZJ_CGDrawViewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZJ_CGDrawViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FBE18C4075BB5692C29F2952E8B325AF /* Pods-ZJ_CGDrawViewLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJ_CGDrawViewLib_Example.modulemap"; sourceTree = "<group>"; };
-		FF9B52FB904F9BD6417B1353898A5ED2 /* MLTunesOperateModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLTunesOperateModel.h; path = ZJ_CGDrawViewLib/Classes/MLTunesOperateModel.h; sourceTree = "<group>"; };
+		BD3F97C215BA7212E80CC599B83241C2 /* T_CGDrawViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = T_CGDrawViewLib.xcconfig; sourceTree = "<group>"; };
+		C45C5F68D0D0B75D90083BE99E488B68 /* MLTunesOperateModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLTunesOperateModel.h; path = ZJ_CGDrawViewLib/Classes/MLTunesOperateModel.h; sourceTree = "<group>"; };
+		D2EDCBA510F4A963EE076DBB8D373097 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1F766A485F446AB344C7DF5EB32679 /* Pods_ZJ_CGDrawViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJ_CGDrawViewLib_Example.framework; path = "Pods-ZJ_CGDrawViewLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD213F72F68D0016FF043B999E766110 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ED1821357E65F560DDCCA0D3567C76DF /* MLTunesOperateModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLTunesOperateModel.m; path = ZJ_CGDrawViewLib/Classes/MLTunesOperateModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B52585296062E7D603F8E8CDE1B095A /* Frameworks */ = {
+		458EC6D22AD26D11FBA809E327CED813 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310E8DEF85702B61B88829929886FE7E /* Foundation.framework in Frameworks */,
+				DE3331F17750350D9267BBFFDBB9AEF8 /* Foundation.framework in Frameworks */,
+				9FF86086E6FA821A086288B991792D1D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9132913B5BA9C1D51631338892D75BB4 /* Frameworks */ = {
+		7A73A46B372D42915E9199991B41B1B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE462F71D793E8884DD61585B55874F /* Foundation.framework in Frameworks */,
-				1B32378C45654CBDB7BE132EBCA5A87A /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D61649F98265AEC84E704D11A4EF5D16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38CB8507507132C71959B92086FC6D08 /* Foundation.framework in Frameworks */,
+				23DD50E3CAC84B0456C9956EC9CBE93B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,17 +92,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		139CEC6DBBC87E48D2890B59967A026B /* ZJ_CGDrawViewLib */ = {
+		18F16191BC93D2128A2C4351B70E037B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C513BC035646D06B7B501A1ABD15EAD0 /* CGDrawView.h */,
-				FF9B52FB904F9BD6417B1353898A5ED2 /* MLTunesOperateModel.h */,
-				564CCDBAF97B21BDBF722A711AB7DDC2 /* MLTunesOperateModel.m */,
-				E6861D3E5E5A8A1C3BEF5C4B1104814C /* Pod */,
-				C6F1BAACF79FB4645ABEDFD1C2A3D1A8 /* Support Files */,
+				F518758999832725F5FFB3E9EA29EAD0 /* Pods-ZJ_CGDrawViewLib_Example */,
 			);
-			name = ZJ_CGDrawViewLib;
-			path = ../..;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		233FF0CF5AC9974A0DECD1853F3103C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DD213F72F68D0016FF043B999E766110 /* LICENSE */,
+				8CAFC4163D903627ADDD99C034FA2C0B /* README.md */,
+				5283E7232B614F34619E643A05679B1C /* T_CGDrawViewLib.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -139,187 +118,147 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		56B592D27F07F675E70D8888E76FED6A /* Products */ = {
+		4654EC016E3E3773C1A22EAB5E881B65 /* T_CGDrawViewLib */ = {
 			isa = PBXGroup;
 			children = (
-				C6834C4331253FD6DB556844CB9DB1AF /* Pods_ZJ_CGDrawViewLib_Example.framework */,
-				4EF3FF38133CF95E781316829AED67C6 /* Pods_ZJ_CGDrawViewLib_Tests.framework */,
-				781036561FA6FC6F7590374CF1CA3775 /* ZJ_CGDrawViewLib.framework */,
+				5D6F1C4AB1AC9C2949A18D3876154C06 /* CGDrawView.h */,
+				92796BA0FD7F540162A88D6B39F7FEC0 /* lame.h */,
+				C45C5F68D0D0B75D90083BE99E488B68 /* MLTunesOperateModel.h */,
+				ED1821357E65F560DDCCA0D3567C76DF /* MLTunesOperateModel.m */,
+				ED477FFAB8CB8FB924100287FB49716D /* Frameworks */,
+				233FF0CF5AC9974A0DECD1853F3103C4 /* Pod */,
+				64D56984B82E3D9E2F64F6D5F12D4951 /* Support Files */,
 			);
-			name = Products;
+			name = T_CGDrawViewLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		672E0B3C6C431DF96E8FDEFA70355698 /* Development Pods */ = {
+		64D56984B82E3D9E2F64F6D5F12D4951 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				139CEC6DBBC87E48D2890B59967A026B /* ZJ_CGDrawViewLib */,
+				54C18C97A2CBAB8796D6A239833DD2FF /* Info.plist */,
+				0A142605AA14385BB0456B368F127552 /* T_CGDrawViewLib.modulemap */,
+				BD3F97C215BA7212E80CC599B83241C2 /* T_CGDrawViewLib.xcconfig */,
+				25185D53527B210695698CB779E0E08B /* T_CGDrawViewLib-dummy.m */,
+				63E84D135179EA339CB43ECAF5AE1160 /* T_CGDrawViewLib-prefix.pch */,
+				54AE01B161F3E47F429A43514F8114D3 /* T_CGDrawViewLib-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/T_CGDrawViewLib";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				672E0B3C6C431DF96E8FDEFA70355698 /* Development Pods */,
+				AF1FCC59DF93561F1FE3D4441D351A77 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				56B592D27F07F675E70D8888E76FED6A /* Products */,
-				B57F55588D59043BAD98F2092B934B51 /* Targets Support Files */,
+				B105AD6A2AACB49A704FA06DC02637D5 /* Products */,
+				18F16191BC93D2128A2C4351B70E037B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8F3C962774E14AEBBE3973594CD865DC /* Pods-ZJ_CGDrawViewLib_Tests */ = {
+		AF1FCC59DF93561F1FE3D4441D351A77 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF5BDE23B482903A3406A660933CA94E /* Info.plist */,
-				1726D64C6F1EEDB59E9F20B68202B8C6 /* Pods-ZJ_CGDrawViewLib_Tests.modulemap */,
-				8E67664DA3495D7EE628C1A1B95FCF89 /* Pods-ZJ_CGDrawViewLib_Tests-acknowledgements.markdown */,
-				A3A4D8753CDBB590D55EC73FDCFA0AD7 /* Pods-ZJ_CGDrawViewLib_Tests-acknowledgements.plist */,
-				9D06C25487E89256B0882D2BA7A21229 /* Pods-ZJ_CGDrawViewLib_Tests-dummy.m */,
-				58B0A4B0D445C60080C86874A23809D1 /* Pods-ZJ_CGDrawViewLib_Tests-frameworks.sh */,
-				4610609C5A8AC857C1531020AE718907 /* Pods-ZJ_CGDrawViewLib_Tests-resources.sh */,
-				5195D258F06C6913187DF0A7C5D6E5EC /* Pods-ZJ_CGDrawViewLib_Tests-umbrella.h */,
-				094F0421FAC35945E7ACE848B3E4BE26 /* Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig */,
-				2FF5295EDC8B3412900A7F7004DAD0E2 /* Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig */,
+				4654EC016E3E3773C1A22EAB5E881B65 /* T_CGDrawViewLib */,
 			);
-			name = "Pods-ZJ_CGDrawViewLib_Tests";
-			path = "Target Support Files/Pods-ZJ_CGDrawViewLib_Tests";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B57F55588D59043BAD98F2092B934B51 /* Targets Support Files */ = {
+		B105AD6A2AACB49A704FA06DC02637D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6BCE57DA074FFC4EAD841D9609F5ECF /* Pods-ZJ_CGDrawViewLib_Example */,
-				8F3C962774E14AEBBE3973594CD865DC /* Pods-ZJ_CGDrawViewLib_Tests */,
+				DB1F766A485F446AB344C7DF5EB32679 /* Pods_ZJ_CGDrawViewLib_Example.framework */,
+				B7341593C7918B2FF9D1FEF2366AF140 /* T_CGDrawViewLib.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B6BCE57DA074FFC4EAD841D9609F5ECF /* Pods-ZJ_CGDrawViewLib_Example */ = {
+		ED477FFAB8CB8FB924100287FB49716D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF211D35FD420A49439185A71C784848 /* Info.plist */,
-				FBE18C4075BB5692C29F2952E8B325AF /* Pods-ZJ_CGDrawViewLib_Example.modulemap */,
-				D313F196444C5E84891B292E903A94F7 /* Pods-ZJ_CGDrawViewLib_Example-acknowledgements.markdown */,
-				CDFAD0D30F49DE2B6FA33B03720B2F70 /* Pods-ZJ_CGDrawViewLib_Example-acknowledgements.plist */,
-				AD2835B88AEA04C361F47F7A57B13A95 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m */,
-				0264251BD8EBF00BF06BCEB59CB0A2F6 /* Pods-ZJ_CGDrawViewLib_Example-frameworks.sh */,
-				DEC9EAE96007D57257D4C982AB8F7BB7 /* Pods-ZJ_CGDrawViewLib_Example-resources.sh */,
-				759846E8D5B7F68C0B6C65270BB29455 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h */,
-				985B870DE8A06DD91021BF1DFC510CBA /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */,
-				C0C06CB4FB3E90D051AB5F666D6C9BF9 /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */,
+				8682FC932E52571A6651C2AF29788B82 /* libmp3lame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F518758999832725F5FFB3E9EA29EAD0 /* Pods-ZJ_CGDrawViewLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDCBA510F4A963EE076DBB8D373097 /* Info.plist */,
+				589061DFD5C4847A64155E283417760F /* Pods-ZJ_CGDrawViewLib_Example.modulemap */,
+				A398B81675392FAFC596B78986E8C4F5 /* Pods-ZJ_CGDrawViewLib_Example-acknowledgements.markdown */,
+				1C22FFE6011999D4145E3ECD80832123 /* Pods-ZJ_CGDrawViewLib_Example-acknowledgements.plist */,
+				22C1EFD9373A30DCDF5D49AA265C90F2 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m */,
+				8899A3BBAC5087E086344CE8C7BCD39D /* Pods-ZJ_CGDrawViewLib_Example-frameworks.sh */,
+				215665B217D990E83A424AF7F9855B44 /* Pods-ZJ_CGDrawViewLib_Example-resources.sh */,
+				54D415ADBB6D3FA52B1645D89B0D4737 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h */,
+				9631B524105D2947F2FFF355CA89C1B2 /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */,
+				5EF1DCE4386DD3E0FA1DE4278B60B829 /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */,
 			);
 			name = "Pods-ZJ_CGDrawViewLib_Example";
 			path = "Target Support Files/Pods-ZJ_CGDrawViewLib_Example";
 			sourceTree = "<group>";
 		};
-		C6F1BAACF79FB4645ABEDFD1C2A3D1A8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				75A1DD793E1FC606CD11678139C7667D /* Info.plist */,
-				63A4FCEE2BB8F1CDC88FA59F10E2118A /* ZJ_CGDrawViewLib.modulemap */,
-				B196BA956AA6483F07E8EA5EBBDD74DB /* ZJ_CGDrawViewLib.xcconfig */,
-				2D839960FE7915D422A7F475751579A2 /* ZJ_CGDrawViewLib-dummy.m */,
-				19C49347ECA505A9D5394B4ED34F5386 /* ZJ_CGDrawViewLib-prefix.pch */,
-				98F8BA492AE62F2E91516CF6377985DF /* ZJ_CGDrawViewLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZJ_CGDrawViewLib";
-			sourceTree = "<group>";
-		};
-		E6861D3E5E5A8A1C3BEF5C4B1104814C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				052928E175FE4F1526AA7D1A291F942A /* LICENSE */,
-				AFEB0CA0A21D122B7607F0481A5BE73F /* README.md */,
-				E96683A26A8EF47953395112077DDEBA /* ZJ_CGDrawViewLib.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		006F27BE549A743DACAD63FD3D50BCCB /* Headers */ = {
+		42FE181DF4F4248A61541218B506817E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				965175E49CBF14F65E5AB046201A3739 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h in Headers */,
+				82D736F0BAC19CF82A6387EA217F9E20 /* Pods-ZJ_CGDrawViewLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C810B39C77305781CEAE51D9E820C780 /* Headers */ = {
+		ABCAB1343F82674923A5A0BF0647612A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C2442C21824EDB490F5D3A2BC6C206 /* CGDrawView.h in Headers */,
-				053555217DF9EDA042EDA335F12B065E /* MLTunesOperateModel.h in Headers */,
-				6F902236AF803F98FC28602F22B3D44B /* ZJ_CGDrawViewLib-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FEF10F11EA8857308B90B1D8A91F9456 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				562B1DCFB3C07B7948FADF0A2001EB1B /* Pods-ZJ_CGDrawViewLib_Tests-umbrella.h in Headers */,
+				79C5DE7BB802CB9770C45575006B8577 /* CGDrawView.h in Headers */,
+				22C0149E644C53C70E84B77CBD86E4D0 /* lame.h in Headers */,
+				8CB67A833813D8B8ED31C8F856FDC04D /* MLTunesOperateModel.h in Headers */,
+				6C4E1D192CEAFC45EC65604D2E299468 /* T_CGDrawViewLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18E51FEF2D8278A38170E42E3CCCEFE7 /* ZJ_CGDrawViewLib */ = {
+		4E64AA6EFE2BBCAAC978783B46D1EA83 /* Pods-ZJ_CGDrawViewLib_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89B23EE06D8B28A3294AFE82D0609518 /* Build configuration list for PBXNativeTarget "ZJ_CGDrawViewLib" */;
+			buildConfigurationList = 5FD04E11EF41E3C32BE45C0A6F0651DB /* Build configuration list for PBXNativeTarget "Pods-ZJ_CGDrawViewLib_Example" */;
 			buildPhases = (
-				E5CAE3EE863D7C57CDB51371C6251BE1 /* Sources */,
-				9132913B5BA9C1D51631338892D75BB4 /* Frameworks */,
-				C810B39C77305781CEAE51D9E820C780 /* Headers */,
+				A039AF934495437170738D165BF0409A /* Sources */,
+				7A73A46B372D42915E9199991B41B1B2 /* Frameworks */,
+				42FE181DF4F4248A61541218B506817E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = ZJ_CGDrawViewLib;
-			productName = ZJ_CGDrawViewLib;
-			productReference = 781036561FA6FC6F7590374CF1CA3775 /* ZJ_CGDrawViewLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		84AEDABAACB44DB830267E4E6F4E1B12 /* Pods-ZJ_CGDrawViewLib_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68CCB4DD926317F37CEBE3971CD2C29F /* Build configuration list for PBXNativeTarget "Pods-ZJ_CGDrawViewLib_Tests" */;
-			buildPhases = (
-				285DB388C5ADB6BD7CA6806CCB335F2F /* Sources */,
-				D61649F98265AEC84E704D11A4EF5D16 /* Frameworks */,
-				FEF10F11EA8857308B90B1D8A91F9456 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				57D7AAFCD0A1886246785958F0264974 /* PBXTargetDependency */,
-			);
-			name = "Pods-ZJ_CGDrawViewLib_Tests";
-			productName = "Pods-ZJ_CGDrawViewLib_Tests";
-			productReference = 4EF3FF38133CF95E781316829AED67C6 /* Pods_ZJ_CGDrawViewLib_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A5CC48ECA0FE53A41F41528BE8E476FA /* Pods-ZJ_CGDrawViewLib_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD76B90505741292E3C2E1598F9C167A /* Build configuration list for PBXNativeTarget "Pods-ZJ_CGDrawViewLib_Example" */;
-			buildPhases = (
-				EC06EE81D186F696AE50085A17863F4A /* Sources */,
-				4B52585296062E7D603F8E8CDE1B095A /* Frameworks */,
-				006F27BE549A743DACAD63FD3D50BCCB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D80A48F007BBAC66A50AB90A995F72A1 /* PBXTargetDependency */,
+				32CAA01D8401D0F36C2A1D35E2CDFA95 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZJ_CGDrawViewLib_Example";
 			productName = "Pods-ZJ_CGDrawViewLib_Example";
-			productReference = C6834C4331253FD6DB556844CB9DB1AF /* Pods_ZJ_CGDrawViewLib_Example.framework */;
+			productReference = DB1F766A485F446AB344C7DF5EB32679 /* Pods_ZJ_CGDrawViewLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0639A6833D571DA89DC65F2AB740E2A /* T_CGDrawViewLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5EC436F7E752E0DA0FB17DEA7F6252 /* Build configuration list for PBXNativeTarget "T_CGDrawViewLib" */;
+			buildPhases = (
+				832263CEF8E468FFE1BC535548AE1E39 /* Sources */,
+				458EC6D22AD26D11FBA809E327CED813 /* Frameworks */,
+				ABCAB1343F82674923A5A0BF0647612A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T_CGDrawViewLib;
+			productName = T_CGDrawViewLib;
+			productReference = B7341593C7918B2FF9D1FEF2366AF140 /* T_CGDrawViewLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -339,133 +278,49 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 56B592D27F07F675E70D8888E76FED6A /* Products */;
+			productRefGroup = B105AD6A2AACB49A704FA06DC02637D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5CC48ECA0FE53A41F41528BE8E476FA /* Pods-ZJ_CGDrawViewLib_Example */,
-				84AEDABAACB44DB830267E4E6F4E1B12 /* Pods-ZJ_CGDrawViewLib_Tests */,
-				18E51FEF2D8278A38170E42E3CCCEFE7 /* ZJ_CGDrawViewLib */,
+				4E64AA6EFE2BBCAAC978783B46D1EA83 /* Pods-ZJ_CGDrawViewLib_Example */,
+				D0639A6833D571DA89DC65F2AB740E2A /* T_CGDrawViewLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		285DB388C5ADB6BD7CA6806CCB335F2F /* Sources */ = {
+		832263CEF8E468FFE1BC535548AE1E39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4DE22F542825D4742F91FC4A9E272DF /* Pods-ZJ_CGDrawViewLib_Tests-dummy.m in Sources */,
+				DC051B9D12504A67EC80317DE5E86678 /* MLTunesOperateModel.m in Sources */,
+				48CF49E000101A00BA40EF69134B40A6 /* T_CGDrawViewLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5CAE3EE863D7C57CDB51371C6251BE1 /* Sources */ = {
+		A039AF934495437170738D165BF0409A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD85EB7CAC8C941B62A9F001703FA8D /* MLTunesOperateModel.m in Sources */,
-				FB065919D7A7181F2CF2A0FEC7C37213 /* ZJ_CGDrawViewLib-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC06EE81D186F696AE50085A17863F4A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2147D7F5AB11FDFBCA4F93C941047731 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m in Sources */,
+				1F5E78BC68A4119F31E5AF7747EF4CD3 /* Pods-ZJ_CGDrawViewLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		57D7AAFCD0A1886246785958F0264974 /* PBXTargetDependency */ = {
+		32CAA01D8401D0F36C2A1D35E2CDFA95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ZJ_CGDrawViewLib_Example";
-			target = A5CC48ECA0FE53A41F41528BE8E476FA /* Pods-ZJ_CGDrawViewLib_Example */;
-			targetProxy = 78FF52C650DBC5CAC3BA41FCFE125A4F /* PBXContainerItemProxy */;
-		};
-		D80A48F007BBAC66A50AB90A995F72A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZJ_CGDrawViewLib;
-			target = 18E51FEF2D8278A38170E42E3CCCEFE7 /* ZJ_CGDrawViewLib */;
-			targetProxy = DF920E6BD783AF4F5584AE73DB56BCF1 /* PBXContainerItemProxy */;
+			name = T_CGDrawViewLib;
+			target = D0639A6833D571DA89DC65F2AB740E2A /* T_CGDrawViewLib */;
+			targetProxy = DA8308DFAE8EE42292D8A3D1F94B0674 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01826980288CB12E4DFD16411B3E49D5 /* Debug */ = {
+		0EA32BCB78D067D3A5216DAA1372C107 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 094F0421FAC35945E7ACE848B3E4BE26 /* Pods-ZJ_CGDrawViewLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZJ_CGDrawViewLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZJ_CGDrawViewLib_Tests/Pods-ZJ_CGDrawViewLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		046C6084E051E4A593D537098A9C4AD4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FF5295EDC8B3412900A7F7004DAD0E2 /* Pods-ZJ_CGDrawViewLib_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZJ_CGDrawViewLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZJ_CGDrawViewLib_Tests/Pods-ZJ_CGDrawViewLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		312D13539A917AAC9526FA50B4807EB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0C06CB4FB3E90D051AB5F666D6C9BF9 /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */;
+			baseConfigurationReference = 5EF1DCE4386DD3E0FA1DE4278B60B829 /* Pods-ZJ_CGDrawViewLib_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -498,11 +353,10 @@
 			};
 			name = Release;
 		};
-		4A96A3C7A0EB1DDB81CD8FAA38C7737C /* Debug */ = {
+		2AC1D9F7C1D032B898AD36617874EB90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 985B870DE8A06DD91021BF1DFC510CBA /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */;
+			baseConfigurationReference = BD3F97C215BA7212E80CC599B83241C2 /* T_CGDrawViewLib.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -513,19 +367,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/T_CGDrawViewLib/T_CGDrawViewLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/T_CGDrawViewLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Pods-ZJ_CGDrawViewLib_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/T_CGDrawViewLib/T_CGDrawViewLib.modulemap";
+				PRODUCT_MODULE_NAME = T_CGDrawViewLib;
+				PRODUCT_NAME = T_CGDrawViewLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -653,9 +505,9 @@
 			};
 			name = Release;
 		};
-		B706E54ABBA9F3720A184591F9B4FB97 /* Debug */ = {
+		96BFFACB9BFE53947B694C962D2C2C09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B196BA956AA6483F07E8EA5EBBDD74DB /* ZJ_CGDrawViewLib.xcconfig */;
+			baseConfigurationReference = BD3F97C215BA7212E80CC599B83241C2 /* T_CGDrawViewLib.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -667,45 +519,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZJ_CGDrawViewLib/ZJ_CGDrawViewLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZJ_CGDrawViewLib/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/T_CGDrawViewLib/T_CGDrawViewLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/T_CGDrawViewLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZJ_CGDrawViewLib/ZJ_CGDrawViewLib.modulemap";
-				PRODUCT_MODULE_NAME = ZJ_CGDrawViewLib;
-				PRODUCT_NAME = ZJ_CGDrawViewLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ED78BC1B653994F6428259B575C87A24 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B196BA956AA6483F07E8EA5EBBDD74DB /* ZJ_CGDrawViewLib.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZJ_CGDrawViewLib/ZJ_CGDrawViewLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZJ_CGDrawViewLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZJ_CGDrawViewLib/ZJ_CGDrawViewLib.modulemap";
-				PRODUCT_MODULE_NAME = ZJ_CGDrawViewLib;
-				PRODUCT_NAME = ZJ_CGDrawViewLib;
+				MODULEMAP_FILE = "Target Support Files/T_CGDrawViewLib/T_CGDrawViewLib.modulemap";
+				PRODUCT_MODULE_NAME = T_CGDrawViewLib;
+				PRODUCT_NAME = T_CGDrawViewLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -715,6 +536,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		E8C6090158B379B5E76381111A183B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9631B524105D2947F2FFF355CA89C1B2 /* Pods-ZJ_CGDrawViewLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJ_CGDrawViewLib_Example/Pods-ZJ_CGDrawViewLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -728,29 +583,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68CCB4DD926317F37CEBE3971CD2C29F /* Build configuration list for PBXNativeTarget "Pods-ZJ_CGDrawViewLib_Tests" */ = {
+		5FD04E11EF41E3C32BE45C0A6F0651DB /* Build configuration list for PBXNativeTarget "Pods-ZJ_CGDrawViewLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01826980288CB12E4DFD16411B3E49D5 /* Debug */,
-				046C6084E051E4A593D537098A9C4AD4 /* Release */,
+				E8C6090158B379B5E76381111A183B04 /* Debug */,
+				0EA32BCB78D067D3A5216DAA1372C107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89B23EE06D8B28A3294AFE82D0609518 /* Build configuration list for PBXNativeTarget "ZJ_CGDrawViewLib" */ = {
+		CD5EC436F7E752E0DA0FB17DEA7F6252 /* Build configuration list for PBXNativeTarget "T_CGDrawViewLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B706E54ABBA9F3720A184591F9B4FB97 /* Debug */,
-				ED78BC1B653994F6428259B575C87A24 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD76B90505741292E3C2E1598F9C167A /* Build configuration list for PBXNativeTarget "Pods-ZJ_CGDrawViewLib_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A96A3C7A0EB1DDB81CD8FAA38C7737C /* Debug */,
-				312D13539A917AAC9526FA50B4807EB4 /* Release */,
+				2AC1D9F7C1D032B898AD36617874EB90 /* Debug */,
+				96BFFACB9BFE53947B694C962D2C2C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

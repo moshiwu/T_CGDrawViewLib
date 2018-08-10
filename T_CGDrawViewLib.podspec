@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'T_CGDrawViewLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '画笔工具'
 
   s.description      = <<-DESC
@@ -22,8 +22,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = ['ZJ_CGDrawViewLib/Classes/CGDrawView.h','ZJ_CGDrawViewLib/Classes/MLTunesOperateModel.h','ZJ_CGDrawViewLib/Classes/MLTunesOperateModel.m']
+  s.source_files = ['ZJ_CGDrawViewLib/Classes/CGDrawView.h','ZJ_CGDrawViewLib/Classes/MLTunesOperateModel.h','ZJ_CGDrawViewLib/Classes/MLTunesOperateModel.m','ZJ_CGDrawViewLib/Classes/lame.h']
   
-  #s.vendored_libraries = "libCGDrawView.a"
+  s.vendored_libraries = 'ZJ_CGDrawViewLib/Classes/libmp3lame.a'
   s.frameworks = 'Foundation', 'UIKit'
 end

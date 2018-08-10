@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ZJ_CGDrawViewLib
+## T_CGDrawViewLib
 
 Copyright (c) 2018 krystalNa <liuna@raintai.com>
 

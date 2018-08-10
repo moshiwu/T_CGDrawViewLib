@@ -1,11 +1,6 @@
 use_frameworks!
 
 target 'ZJ_CGDrawViewLib_Example' do
-  pod 'ZJ_CGDrawViewLib', :path => '../'
+  pod 'T_CGDrawViewLib', :path => '../'
 
-  target 'ZJ_CGDrawViewLib_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
